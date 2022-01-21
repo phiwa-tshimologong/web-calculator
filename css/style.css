@@ -1,0 +1,41 @@
+/* Color pallete
+_____________________
+black - #000
+white - #fff
+light - #d8d9db
+buttons on hover - #ebebeb
+button active state - #bbbcbe
+function buttons - #df974c
+function buttons on hover - #dfb07e
+function button active state - #dd8d37
+
+*/
+
+html{
+    box-sizing: border-box;
+}
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+.screen{
+    text-align: right;
+    padding: 1.5rem 0.4rem;
+    font-size: 3.2rem;
+}
+.wrapper{
+    width: 400px;
+    border: solid 3px red; 
+    background-color: #000;
+    color: #fff;
+}
+
+
+.calc-button-row{
+    border: 3px solid blue;
+}
